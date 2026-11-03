@@ -1,0 +1,18 @@
+[ddp] step 250 val 2.2515
+[ddp] step 500 val 2.0086
+[ddp] step 750 val 1.8726
+[ddp] step 1000 val 1.7990
+[ddp] step 1250 val 1.7206
+[ddp] step 1500 val 1.6875
+[ddp] step 1750 val 1.6450
+[ddp] step 2000 val 1.6288
+ddp final val 1.6288 time 350 s
+[diloco] step 250 val 2.3824
+[diloco] step 500 val 2.1260
+[diloco] step 750 val 1.9917
+[diloco] step 1000 val 1.9147
+[diloco] step 1250 val 1.8580
+[diloco] step 1500 val 1.8190
+[diloco] step 1750 val 1.7795
+[diloco] step 2000 val 1.7500
+diloco final val 1.75 time 350 s

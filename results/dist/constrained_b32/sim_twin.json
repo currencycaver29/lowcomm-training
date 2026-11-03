@@ -1,0 +1,1 @@
+{"method": "diloco", "H": 50, "H_r": 10, "H_g": 50, "bits": 32, "seed": 1, "steps": 300, "n_params": 351744, "payload_bytes": 1406976, "wan_syncs": 6, "lan_syncs": 0, "final_val": 2.540580630302429, "history": [{"step": 300, "train_loss": 2.370298385620117, "val_loss": 2.540580630302429}]}

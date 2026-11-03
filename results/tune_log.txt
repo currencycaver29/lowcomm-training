@@ -1,0 +1,8 @@
+diloco_H50_lr0.004_outer_lr1.0           final val 1.7174
+diloco_H50_lr0.008_outer_lr0.7           final val 1.7124
+diloco_H50_lr0.008_outer_lr1.0           final val 1.7073
+ddp_lr0.016                              final val 1.5770
+diloco_H50_lr0.016_outer_lr0.7           final val 1.7060
+diloco_H50_lr0.016_outer_lr1.0           final val 1.7307
+best ddp {'lr': 0.016} 1.577
+best diloco {'H': 50, 'lr': 0.016, 'outer_lr': 0.7} 1.706

@@ -1,0 +1,39 @@
+params=351,744  fp32=1,406,976 B  int8=357,240 B  int4=181,368 B
+regional         flat 32-bit: median round 0.508 s
+regional         flat  8-bit: median round 0.195 s
+regional         flat  4-bit: median round 0.082 s
+regional         hier 32-bit: median round 0.268 s
+regional         hier  8-bit: median round 0.090 s
+regional         hier  4-bit: median round 0.061 s
+   emulator STATS {'pkts': 247987, 'loss_drops': 0, 'buf_drops': 4125}
+intercontinental flat 32-bit: median round 1.408 s
+intercontinental flat  8-bit: median round 0.700 s
+intercontinental flat  4-bit: median round 0.427 s
+intercontinental hier 32-bit: median round 1.042 s
+intercontinental hier  8-bit: median round 0.574 s
+intercontinental hier  4-bit: median round 0.442 s
+   emulator STATS {'pkts': 246848, 'loss_drops': 250, 'buf_drops': 3272}
+constrained      flat 32-bit: median round 5.469 s
+constrained      flat  8-bit: median round 1.872 s
+constrained      flat  4-bit: median round 1.192 s
+constrained      hier 32-bit: median round 2.812 s
+constrained      hier  8-bit: median round 1.061 s
+constrained      hier  4-bit: median round 1.015 s
+   emulator STATS {'pkts': 289034, 'loss_drops': 1399, 'buf_drops': 4304}
+poor             flat 32-bit: median round 26.937 s
+poor             flat  8-bit: median round 6.940 s
+poor             flat  4-bit: median round 4.292 s
+poor             hier 32-bit: median round 12.872 s
+poor             hier  8-bit: median round 3.621 s
+poor             hier  4-bit: median round 3.100 s
+   emulator STATS {'pkts': 181022, 'loss_drops': 1723, 'buf_drops': 5471}
+params=351,744  fp32=1,406,976 B  int8=357,240 B  int4=181,368 B
+regional         flat_b2b 32-bit: median round 0.510 s
+   emulator STATS {'pkts': 119787, 'loss_drops': 0, 'buf_drops': 4200}
+intercontinental flat_b2b 32-bit: median round 1.322 s
+   emulator STATS {'pkts': 120313, 'loss_drops': 119, 'buf_drops': 2325}
+constrained      flat_b2b 32-bit: median round 5.457 s
+   emulator STATS {'pkts': 145659, 'loss_drops': 711, 'buf_drops': 5964}
+poor             flat_b2b 32-bit: median round 27.381 s
+   emulator STATS {'pkts': 87181, 'loss_drops': 822, 'buf_drops': 2659}
+local-only regional averaging: median 0.0079 s
